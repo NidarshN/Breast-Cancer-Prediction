@@ -114,7 +114,7 @@ def embed_predictions(input_data, model, std_scaler):
     scaled_input = std_scaler.transform(input_array)
     prediction = model.predict(scaled_input)
 
-    st.subheader("Cell Cluster Prediction")
+    st.subheader(f":blue[{'Cell Cluster Prediction'}]")
     st.write("The Cell Cluster is: ")
 
     if prediction[0] == 0:
@@ -146,7 +146,7 @@ def main():
 
     input_data = create_sidebar()
     with st.container():
-        st.title(Config.TITLE)
+        st.title(f":blue[{Config.TITLE}]")
         st.write(Config.DETAILS)
     column_graph, column_result = st.columns([4,1])
 
