@@ -59,5 +59,5 @@ This project is licensed under the MIT License.
 ## Reference
 
 This tutorial is based from Alejandro AO's youtube tutorials -  [
-Alejandro AO - Software & Ai](https://youtu.be/NfwfiyMi1lk?si=Xoc36VeWsQ-1Z4Y2).
+Alejandro AO - Software & Ai](https://youtu.be/NfwfiyMi1lk?si=Xoc36VeWsQ-1Z4Y2)
 
