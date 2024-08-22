@@ -1,0 +1,5 @@
+numpy
+plotly
+python-dotenv
+scikit-learn
+streamlit
