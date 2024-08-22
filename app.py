@@ -123,8 +123,8 @@ def embed_predictions(input_data, model, std_scaler):
     else:
         st.write("<span class='diagnosis malicious'>Malicious</span>", unsafe_allow_html=True)
         
-    st.write(f"Probability of being benign: :green[{round(model.predict_proba(scaled_input)[0][0] * 100, 2)} %]")
-    st.write(f"Probability of being malicious: :red[{round(model.predict_proba(scaled_input)[0][1] * 100, 2)} %]")
+    st.write(f"Probability of being benign: <div>:green[{round(model.predict_proba(scaled_input)[0][0] * 100, 2)} %]</div>", unsafe_allow_html=True)
+    st.write(f"Probability of being malicious: <div>:red[{round(model.predict_proba(scaled_input)[0][1] * 100, 2)} %]</div>", unsafe_allow_html=True)
 
 
 
